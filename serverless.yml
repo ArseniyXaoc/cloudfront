@@ -31,7 +31,7 @@ plugins:
 
 custom:
   client:
-    bucketName: rsnodeaws
+    bucketName: rsnodeawsn
     distributionFolder: build
 
   s3BucketName: ${self:custom.client.bucketName}
